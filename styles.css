@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 3;
+}
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0px 0;
+}
+header img.logo {
+    max-width: 200px;
+}
+header h1 {
+    margin: 2px 0 0;
+    color: #f5f5f9;
+}
+h1:hover {
+    color: #e5e5e5;
+    transform: scale(1.1);
+}
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #333;
+    background-color: #c1b8b8;
+    border-radius: 2px;
+    padding: 12px 12px;
+}
+.hero-section {
+    background: url('https://www.shutterstock.com/shutterstock/photos/1364078036/display_1500/stock-vector-human-hand-touching-on-a-book-low-poly-wireframe-online-education-blue-background-or-concept-with-1364078036.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+.hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 0%;
+}
+.hero-section .slideshow {
+    position: relative;
+    z-index: 1;
+}
+.hero-content {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+.hero-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.hero-content p {
+    font-size: 1.2em;
+}
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1430px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px;
+    padding: 20px;
+}
+section h2 {
+    font-size: 2em;
+    margin-bottom: 2px;
+}
+section p {
+    margin: 0 0 10px;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+ul li {
+    margin-bottom: 10px;
+}
+iframe {
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+.hex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
+p {
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: #333; 
+    margin-bottom: 0.5em; 
+}
+.hex {
+    width: 200px;
+    height: 120px; 
+    background-color:rgb(235, 233, 233);
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    cursor: pointer;
+    padding:5px
+}
+.hex:hover {
+    background-color:yellow;
+}
+.hex-content {
+    width: 100%;
+    text-align: center;
+    text-size-adjust:50px;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    padding:25px;
+}
+#hex1{
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+footer ul li {
+    margin: 0;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+.social-icon {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.social-icon:hover {
+    color: #007bff;
+}
