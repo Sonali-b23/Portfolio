@@ -39,10 +39,17 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1em;
+    transition: color 0.3s ease, background-color 0.3s ease; 
+    padding: 5px 10px; 
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    color: #fcf9f9; 
+    background-color: #ceabab; 
 }
 .hero-section {
     background: url('https://www.shutterstock.com/shutterstock/photos/1364078036/display_1500/stock-vector-human-hand-touching-on-a-book-low-poly-wireframe-online-education-blue-background-or-concept-with-1364078036.jpg') no-repeat center center/cover;
-    color: #fff;
+    color: #ac9696;
     text-align: center;
     position: relative;
     padding: 60px 20px; 
@@ -162,4 +169,11 @@ footer ul {
     .social-icon {
         font-size: 1.2em;
     }
+}
+.project-image {
+    width: 100%;
+    max-width: 600px; 
+    height: auto;
+    margin: 20px auto;
+    display: block;
 }
