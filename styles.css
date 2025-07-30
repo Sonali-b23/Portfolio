@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Font & Base Styles */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
@@ -51,10 +52,50 @@ nav ul li {
     margin: 0 15px;
 }
 
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background: #f4f1f1;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+header h1 {
+    margin: 2px 0 0;
+    color: #f5f5f9;
+}
+h1:hover {
+    color: #e5e5e5;
+    transform: scale(1.1);
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+nav ul li {
+    margin: 0 15px;
+}
+>>>>>>> 3c954f1e231891a8b80e2e997163f56fa7bf47e1
 nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1em;
+<<<<<<< HEAD
     padding: 8px 12px;
     border-radius: 6px;
     transition: background 0.3s ease, color 0.3s ease;
@@ -66,11 +107,22 @@ nav ul li a:hover {
 }
 
 /* Hero Section */
+=======
+    transition: color 0.3s ease, background-color 0.3s ease; 
+    padding: 5px 10px; 
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    color: #fcf9f9; 
+    background-color: #ceabab; 
+}
+>>>>>>> 3c954f1e231891a8b80e2e997163f56fa7bf47e1
 .hero-section {
     background: url('https://www.shutterstock.com/shutterstock/photos/1364078036/display_1500/stock-vector-human-hand-touching-on-a-book-low-poly-wireframe-online-education-blue-background-or-concept-with-1364078036.jpg') no-repeat center center/cover;
     color: #ac9696;
     text-align: center;
     position: relative;
+<<<<<<< HEAD
     padding: 80px 20px;
 }
 
@@ -95,6 +147,21 @@ nav ul li a:hover {
 }
 
 /* Button */
+=======
+    padding: 60px 20px; 
+}
+.hero-content {
+    padding: 20px;
+    border-radius: 10px;
+}
+.hero-content h1 {
+    font-size: 2.5em; 
+}
+.hero-content p {
+    font-size: 1.1em;
+    color: #f8f5f5;
+}
+>>>>>>> 3c954f1e231891a8b80e2e997163f56fa7bf47e1
 .btn {
     background-color: #007bff;
     color: #fff;
@@ -102,6 +169,7 @@ nav ul li a:hover {
     text-decoration: none;
     border-radius: 5px;
     font-size: 1em;
+<<<<<<< HEAD
     display: inline-block;
     margin-top: 15px;
     transition: background-color 0.3s ease;
@@ -143,6 +211,31 @@ ul li {
 }
 
 /* Hexagon Style */
+=======
+}
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 90%; 
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px;
+}
+section h2 {
+    font-size: 2em;
+    margin-bottom: 10px; 
+}
+section p {
+    margin: 0 0 10px;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+ul li {
+    margin-bottom: 10px;
+}
+>>>>>>> 3c954f1e231891a8b80e2e997163f56fa7bf47e1
 .hex-container {
     display: flex;
     justify-content: center;
@@ -150,11 +243,18 @@ ul li {
     gap: 20px;
     padding: 20px 0;
 }
+<<<<<<< HEAD
 
 .hex {
     width: 150px;
     height: 100px;
     background-color: #e6e6e6;
+=======
+.hex {
+    width: 150px; 
+    height: 100px; 
+    background-color: rgb(235, 233, 233);
+>>>>>>> 3c954f1e231891a8b80e2e997163f56fa7bf47e1
     position: relative;
     text-align: center;
     display: flex;
@@ -162,6 +262,7 @@ ul li {
     justify-content: center;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
     cursor: pointer;
+<<<<<<< HEAD
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
@@ -200,10 +301,32 @@ footer ul {
     padding: 0;
 }
 
+=======
+}
+.hex:hover {
+    background-color: yellow;
+}
+.hex-content {
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+>>>>>>> 3c954f1e231891a8b80e2e997163f56fa7bf47e1
 .social-media {
     display: flex;
     justify-content: center;
     gap: 15px;
+<<<<<<< HEAD
     margin-top: 12px;
 }
 
@@ -253,3 +376,46 @@ footer ul {
         font-size: 1.3em;
     }
 }
+=======
+    margin-top: 10px;
+}
+.social-icon {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em; 
+    }
+    .hero-content p {
+        font-size: 1em; 
+    }
+    nav ul {
+        flex-direction: column; 
+    }
+    nav ul li {
+        margin: 5px 0; 
+    }
+    section {
+        padding: 15px; 
+    }
+    .hex {
+        width: 120px; 
+        height: 80px; 
+    }
+    .btn {
+        font-size: 0.9em; 
+    }
+    .social-icon {
+        font-size: 1.2em;
+    }
+}
+.project-image {
+    width: 100%;
+    max-width: 600px; 
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+>>>>>>> 3c954f1e231891a8b80e2e997163f56fa7bf47e1
