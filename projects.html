@@ -1,301 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<<<<<<< HEAD
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>My Projects - Sonali's Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
-=======
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Projects - Sonali's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
->>>>>>> 3c954f1e231891a8b80e2e997163f56fa7bf47e1
 </head>
 <body>
-    <header class="hero-section">
-        <div class="hero-content">
-<<<<<<< HEAD
-            <h1>My Projects</h1>
-            <p>Explore the projects I've undertaken, highlighting my expertise and innovation.</p>
-=======
-        <h1>My Projects</h1>
-        <p>Explore the projects I've worked on, showcasing my skills and creativity.</p>
->>>>>>> 3c954f1e231891a8b80e2e997163f56fa7bf47e1
-        </div>
-    </header>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-<<<<<<< HEAD
-            <li><a href="#brain-tumor-cnn">Brain Tumor Classification Using CNN</a></li>
-            <li><a href="#solar-anfis-mppt">Solar Power Prediction Using ANFIS and MPPT</a></li>
-            <li><a href="#hybrid-vehicle">Hybrid Vehicle Prototype</a></li>
-            <li><a href="#msit">MSIT Web Portfolio</a></li>
-            <li><a href="#anfis-solar">ANFIS-Controlled MPPT For Solar PV Systems</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#twitter-search">Twitter Semantic Search</a></li>
+            <li><a href="#brain-tumor">Brain Tumor CNN</a></li>
+            <li><a href="#graphrag">Hybrid GraphRAG</a></li>
+            <li><a href="#magic-metaphors">Magic Metaphors</a></li>
+            <li><a href="#music-rnn">AI Music Generation</a></li>
+            <li><a href="#metro-nav">Metro Navigation</a></li>
+            <li><a href="#login-system">Login System</a></li>
         </ul>
     </nav>
 
-    <section id="brain-tumor-cnn">
-        <h2>BRAIN TUMOR CLASSIFICATION USING CNN</h2>
-        <img
-            src="https://www.finalyearprojects.in/wp-content/uploads/2022/11/Brain-Tumor-Detection-and-Classification-Using-Convolutional-Neural-Network-CNN.jpg"
-            alt="Brain MRI Scan"
-            class="project-image"
-        />
-        <h3>Problem</h3>
-        <p>
-            Accurate classification of brain tumors from MRI scans is critical yet challenging, with manual analysis being
-            time-intensive and susceptible to human error.
-        </p>
-        <h3>Approach</h3>
-        <ul>
-            <li><strong>Preprocessing:</strong> Employed OpenCV and NumPy for image enhancement and normalization.</li>
-            <li><strong>Model Development:</strong> Designed a Convolutional Neural Network (CNN) architecture using PyTorch.</li>
-            <li><strong>Data Exploration:</strong> Conducted comprehensive exploratory data analysis to fine-tune hyperparameters.</li>
-            <li><strong>Evaluation:</strong> Assessed model performance through metrics including accuracy, precision, and recall.</li>
-        </ul>
-        <h3>Results</h3>
-        <ul>
-            <li><strong>High Accuracy:</strong> Achieved over 92% classification accuracy on unseen test data.</li>
-            <li><strong>Reliable Detection:</strong> Effectively differentiated between tumor and healthy tissue images.</li>
-            <li><strong>Version Control:</strong> Managed source code and collaboration through GitHub.</li>
-        </ul>
-        <p>
-            This project demonstrates the potential of deep learning models to support radiologists by enhancing diagnostic speed
-            and accuracy.
-        </p>
-         <h3><a href="https://github.com/Sonali-b23/Brain-Tumor-CNN-PyTorch" target="_blank" rel="noopener noreferrer">View Project on GitHub</a></h3>
+    <header class="hero-section" style="padding: 80px 20px 60px;">
+        <div class="hero-content">
+            <h1>My Technical Projects</h1>
+            <p>A deep dive into my work spanning AI, full-stack systems, and graph analytics.</p>
+        </div>
+    </header>
+
+    <!-- NEW PROJECT 1 -->
+    <section id="twitter-search" class="hidden">
+        <h2>Twitter API Semantic Search</h2>
+        <div class="project-detail-section">
+            <h3>Overview (Python)</h3>
+            <p>A semantic search engine designed specifically for the Twitter API Postman documentation. It enables users to intelligently query the API documentation and retrieve the most relevant endpoints and descriptions using advanced sentence embeddings.</p>
+            
+            <h3>Key Features</h3>
+            <ul class="standard-list">
+                <li>Implementation of Sentence Transformers to convert text into embeddings.</li>
+                <li>Vector similarity search for fast and highly accurate endpoint retrieval.</li>
+                <li>Streamlines API integration for developers by allowing natural language queries.</li>
+            </ul>
+        </div>
     </section>
 
-    <section id="solar-anfis-mppt">
-        <h2>SOLAR POWER PREDICTION USING ANFIS AND MPPT</h2>
-        <img
-            src="https://pub.mdpi-res.com/computation/computation-11-00232/article_deploy/html/images/computation-11-00232-ag-550.jpg?1700149623"
-            alt="Solar Panels Field"
-            class="project-image"
-        />
-        <h3>Problem</h3>
-        <p>
-            Solar power output fluctuates due to changing weather conditions, resulting in inefficiencies and unpredictable energy
-            generation.
-        </p>
-        <h3>Approach</h3>
-        <ul>
-            <li><strong>Data Acquisition:</strong> Collected comprehensive datasets on solar panel performance and meteorological variables.</li>
-            <li><strong>Data Processing:</strong> Utilized Pandas for cleaning and preparing structured data for modeling.</li>
-            <li><strong>Modeling:</strong> Implemented Adaptive Neuro-Fuzzy Inference System (ANFIS) regression combined with MPPT algorithms for optimized prediction.</li>
-            <li><strong>Validation:</strong> Evaluated predictive accuracy and MPPT effectiveness under dynamic environmental scenarios.</li>
-        </ul>
-        <h3>Results</h3>
-        <ul>
-            <li><strong>Improved Efficiency:</strong> Enhanced solar panel output through real-time MPPT control integration.</li>
-            <li><strong>Accurate Forecasting:</strong> Delivered reliable solar power predictions leveraging weather data inputs.</li>
-            <li><strong>Robust Documentation:</strong> Maintained thorough code documentation and version control via GitHub.</li>
-        </ul>
-        <p>
-            This work highlights the effectiveness of hybrid intelligent systems in maximizing renewable energy utilization.
-        </p>
-        <h3><a href="https://github.com/Sonali-b23/ANFIS-Solar-Power-Prediction" target="_blank" rel="noopener noreferrer">View Project on GitHub</a></h3>
+    <!-- NEW PROJECT 2 -->
+    <section id="brain-tumor" class="hidden">
+        <h2>Brain Tumor Classification CNN</h2>
+        <div class="project-detail-section">
+            <h3>Overview (Python & PyTorch)</h3>
+            <p>A Convolutional Neural Network (CNN) based brain tumor classification project built with PyTorch, operating on MRI images. Implements binary classification to accurately distinguish between tumor and non-tumor scans.</p>
+            
+            <h3>Key Features</h3>
+            <ul class="standard-list">
+                <li>Custom CNN architecture designed in PyTorch for high-precision image classification.</li>
+                <li>Includes model evaluation, checkpointing to save state, and visualization of loss/accuracy curves.</li>
+                <li>Ideal for assisting medical professionals in rapid diagnostic analysis.</li>
+            </ul>
+        </div>
     </section>
 
-    <section id="hybrid-vehicle">
-        <h2>DESIGNING AN ECO-FRIENDLY HYBRID VEHICLE PROTOTYPE</h2>
-        <img
-            src="https://diyguru.org/wp-content/uploads/2023/04/image-69.png"
-            alt="Hybrid Electric Vehicle"
-            class="project-image"
-        />
-        <h3>Problem</h3>
-        <p>
-            Growing environmental concerns necessitate the development of hybrid vehicles that minimize emissions without compromising
-            performance.
-        </p>
-        <h3>Approach</h3>
-        <ul>
-            <li><strong>Research:</strong> Analyzed existing hybrid vehicle technologies and sustainable materials.</li>
-            <li><strong>Design:</strong> Created a lightweight, efficient powertrain prototype using CAD software.</li>
-            <li><strong>Simulation:</strong> Conducted performance simulations to optimize fuel economy and reduce emissions.</li>
-            <li><strong>Sustainability Assessment:</strong> Evaluated lifecycle environmental impacts of materials and manufacturing.</li>
-        </ul>
-        <h3>Results</h3>
-        <ul>
-            <li><strong>Fuel Efficiency:</strong> Achieved significant improvements compared to conventional hybrids.</li>
-            <li><strong>Emission Reduction:</strong> Reduced greenhouse gas emissions by 30%.</li>
-            <li><strong>User Feedback:</strong> Received positive evaluations on comfort and performance in initial trials.</li>
-        </ul>
-        <p>
-            This project confirms the potential of innovative eco-friendly designs to advance sustainable transportation.
-        </p>
+    <!-- NEW PROJECT 3 -->
+    <section id="graphrag" class="hidden">
+        <h2>Hybrid GraphRAG System</h2>
+        <div class="project-detail-section">
+            <h3>Overview (Jupyter Notebook / Graph DBs)</h3>
+            <p>An advanced Hybrid GraphRAG system that combines the structural power of Neo4j graph traversal with the semantic flexibility of vector similarity search.</p>
+            
+            <h3>Key Features</h3>
+            <ul class="standard-list">
+                <li>Designed specifically for deep retail analytics and complex data relationships.</li>
+                <li>Merges graph data structures with vector mathematical embeddings for highly augmented generation.</li>
+                <li>Demonstrates proficiency in latest RAG (Retrieval-Augmented Generation) methodologies.</li>
+            </ul>
+        </div>
     </section>
 
-    <section id="msit">
-        <h2>DESIGNED INNOVATIVE MSIT WEB PORTFOLIO</h2>
-        <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEO7ovUDRA-AGvq4l4ONbxaZW6PLN41UBXYw&s"
-            alt="MSIT Web Portfolio"
-            class="project-image"
-        />
-        <h3>Problem</h3>
-        <p>
-            Students require personalized, engaging online portfolios; however, existing templates often lack flexibility and
-            impactful design.
-        </p>
-        <h3>Approach</h3>
-        <ul>
-            <li><strong>User Research:</strong> Collected user preferences to guide portfolio feature development.</li>
-            <li><strong>Design & Development:</strong> Crafted a modern, responsive portfolio using HTML, CSS, and JavaScript.</li>
-            <li><strong>Interactivity:</strong> Integrated dynamic elements to enhance user engagement.</li>
-            <li><strong>Iterative Refinement:</strong> Enhanced design based on continuous user feedback.</li>
-        </ul>
-        <h3>Results</h3>
-        <ul>
-            <li><strong>Enhanced Usability:</strong> Created an intuitive interface that effectively showcases skills.</li>
-            <li><strong>Increased Engagement:</strong> Achieved a 40% rise in user interaction over standard templates.</li>
-            <li><strong>Positive Reception:</strong> Earned praise from peers and faculty, inspiring similar portfolio requests.</li>
-        </ul>
-        <p>
-            This project demonstrates the impact of innovative web design in boosting student online presence.
-        </p>
+    <!-- NEW PROJECT 4 -->
+    <section id="magic-metaphors" class="hidden">
+        <h2>Magic Metaphors</h2>
+        <div class="project-detail-section">
+            <h3>Overview (Python & Streamlit)</h3>
+            <p>A unique web application designed to turn complex ideas into simple, vivid metaphors paired with generating unique AI visuals.</p>
+            
+            <h3>Key Features</h3>
+            <ul class="standard-list">
+                <li>Built an interactive front-end using the Streamlit library.</li>
+                <li>Leverages Large Language Models to craft storytelling metaphors for tough topics.</li>
+                <li>Integrates image generation APIs to pair the metaphor with representative art.</li>
+            </ul>
+        </div>
     </section>
 
-    <section id="anfis-solar">
-        <h2>DESIGN AND ANALYSIS OF ANFIS-CONTROLLED MPPT FOR SOLAR PV SYSTEMS</h2>
-        <img
-            src="https://onlinelibrary.wiley.com/cms/asset/257f57aa-003a-4f7b-aedd-179ab3f13926/ijph9625564-fig-0011-m.jpg"
-            alt="ANFIS Solar PV Cell"
-            class="project-image"
-        />
-        <h3>Problem</h3>
-        <p>
-            Conventional solar PV systems often fail to operate at maximum efficiency due to fluctuating environmental conditions.
-        </p>
-        <h3>Approach</h3>
-        <ul>
-            <li><strong>Controller Design:</strong> Developed an ANFIS-based controller to dynamically adjust the maximum power point.</li>
-            <li><strong>Simulation:</strong> Modeled the system in MATLAB/Simulink to validate controller performance.</li>
-            <li><strong>Comparative Analysis:</strong> Benchmarked ANFIS-controlled MPPT against traditional techniques.</li>
-        </ul>
-        <h3>Results</h3>
-        <ul>
-            <li><strong>Efficiency Gains:</strong> Improved energy extraction by 20%.</li>
-            <li><strong>Rapid Adaptation:</strong> Enhanced response to variable irradiance conditions.</li>
-            <li><strong>Stable Operation:</strong> Maintained robust performance across diverse scenarios.</li>
-        </ul>
-        <p>
-            This project highlights the benefits of integrating ANFIS for optimizing solar energy harvesting.
-        </p>
+    <!-- NEW PROJECT 5 -->
+    <section id="music-rnn" class="hidden">
+        <h2>AI Music Generation RNN</h2>
+        <div class="project-detail-section">
+            <h3>Overview (Jupyter Notebook / Deep Learning)</h3>
+            <p>This project implements a Recurrent Neural Network (RNN) utilizing Long Short-Term Memory (LSTM) cells specifically to generate music in ABC notation.</p>
+            
+            <h3>Key Features</h3>
+            <ul class="standard-list">
+                <li>Model trained on a rich dataset of traditional Irish folk songs.</li>
+                <li>Learns temporal dependencies in sequential musical data.</li>
+                <li>Outputs syntactically correct ABC notation that can be actively played or translated to sheet music.</li>
+            </ul>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to reach out to me via email or social media:</p>
-        <p><a href="mailto:sonali.100508@google.com">sonali.100508@google.com</a></p>
+    <!-- NEW PROJECT 6 -->
+    <section id="metro-nav" class="hidden">
+        <h2>Hyderabad Metro Navigation System</h2>
+        <div class="project-detail-section">
+            <h3>Overview (Java)</h3>
+            <p>A systems engineering project focusing on graph theory. Designed a robust graph structure to model the physical station connectivity of the Hyderabad Metro.</p>
+            
+            <h3>Key Features</h3>
+            <ul class="standard-list">
+                <li>Implemented weighted edges representing varying cost and time metrics.</li>
+                <li>Employs pathfinding algorithms (like Dijkstra's or A*) enabling accurate, optimized route suggestions.</li>
+                <li>Demonstrates strong backend algorithm and data structure capabilities in Java.</li>
+            </ul>
+        </div>
     </section>
 
-=======
-            <li><a href="#anfis-solar">ANFIS-Controlled MPPT For Solar PV Systems</a></li>
-            <li><a href="#hybrid-vehicle">hybrid-vehicle Prototype</a></li>
-            <li><a href="#msit">MSIT Web Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <section id="anfis-solar">
-        <h2>DESIGN AND ANALYSIS OF ANFIS-CONTROLLED MPPT FOR SOLAR PV SYSTEMS</h2>
-        <img src="https://onlinelibrary.wiley.com/cms/asset/257f57aa-003a-4f7b-aedd-179ab3f13926/ijph9625564-fig-0011-m.jpg" alt="ANFIS Solar PV Cell" class="project-image">
-        <h3>Problem</h3>
-    <p>Solar PV systems often fail to maximize energy extraction due to changing environmental conditions, leading to inefficiencies.</p>
-    <h3>Approach</h3>
-    <ul>
-        <li><strong>System Design:</strong> Developed an ANFIS-based controller for optimal operating point adjustment.</li>
-        <li><strong>Simulation:</strong> Modeled the system in MATLAB/Simulink to evaluate performance.</li>
-        <li><strong>Performance Evaluation:</strong> Compared ANFIS-controlled MPPT with traditional methods.</li>
-    </ul>    
-    <h3>Results</h3>
-    <ul>
-        <li><strong>Enhanced Efficiency:</strong> Achieved a 20% improvement in energy extraction.</li>
-        <li><strong>Quick Adaptation:</strong> Faster response to changing irradiance conditions.</li>
-        <li><strong>Robust Performance:</strong> Stable operation across various scenarios.</li>
-    </ul> 
-    <p>This project highlights the advantages of using ANFIS for improving solar energy capture in PV systems.</p>
+    <!-- NEW PROJECT 7 -->
+    <section id="login-system" class="hidden">
+        <h2>Simple Login System with Lockout</h2>
+        <div class="project-detail-section">
+            <h3>Overview (Node.js, Express, SQLite, Vanilla JS)</h3>
+            <p>A completed full-stack user authentication system incorporating industry-standard security practices such as temporary account lockouts.</p>
+            
+            <h3>Key Features</h3>
+            <ul class="standard-list">
+                <li>Backend built relying on asynchronous Node.js and Express server routing.</li>
+                <li>Lightweight and reliable SQLite database for managing encrypted user credentials.</li>
+                <li>Frontend interface built with Vanilla JS for dynamic client-side validation.</li>
+            </ul>
+        </div>
     </section>
-    <section id="hybrid-vehicle">
-        <h2>DESIGNING AN ECO-FRIENDLY HYBRID VEHICLE PROTOTYPE</h2>
-        <img src="https://diyguru.org/wp-content/uploads/2023/04/image-69.png" alt="Hybrid Electric Vehicle" class="project-image">
-        <h3>Problem</h3>
-    <p>The growing need for sustainable transportation demands hybrid vehicles that reduce environmental impact without sacrificing performance, as current designs often lead to higher emissions and resource use.</p>
-    <h3>Approach</h3>
-    <ul>
-        <li><strong>Research & Analysis:</strong> Review existing hybrid technologies and eco-friendly materials.</li>
-        <li><strong>Design Phase:</strong> Use CAD software to create a prototype with lightweight materials and an efficient powertrain.</li>
-        <li><strong>Simulation:</strong> Model vehicle performance to enhance fuel efficiency and lower emissions.</li>
-        <li><strong>Sustainability Assessment:</strong> Conduct a lifecycle assessment of materials and manufacturing processes.</li>
-    </ul>
-    <h3>Results</h3>
-    <ul>
-        <li><strong>Enhanced Efficiency:</strong> Improved fuel efficiency over traditional hybrids.</li>
-        <li><strong>Reduced Emissions:</strong> 30% decrease in greenhouse gas emissions.</li>
-        <li><strong>Positive Feedback:</strong> High satisfaction in initial user testing regarding performance and comfort.</li>
-    </ul>  
-    <p>This project underscores the viability of eco-friendly designs in advancing sustainable transportation.</p>
+
+    <!-- OLDER HIGHLIGHTS (Kept for historical context) -->
+    <section id="hybrid-vehicle" class="hidden">
+        <h2>Eco-Friendly Hybrid Vehicle Prototype</h2>
+        <div class="project-detail-section">
+            <h3>Overview (Mechanical / Electrical)</h3>
+            <p>Designed and simulated a lightweight, efficient powertrain prototype to enhance fuel economy and reduce emissions by 30% compared to traditional hybrids.</p>
+        </div>
     </section>
-    <section id="msit">
-        <h2>DESIGNED INNOVATIVE MSIT WEB PORTFOLIO</h2>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEO7ovUDRA-AGvq4l4ONbxaZW6PLN41UBXYw&s" alt="Hybrid Electric Vehicle" class="project-image">
-        <h3>Problem</h3>
-        <p>Students need effective online platforms to showcase their skills, but existing templates often lack customization and impact.</p>       
-        <h3>Approach</h3>
-        <ul>
-            <li><strong>User Research:</strong> Gathered insights on user preferences for portfolio features.</li>
-            <li><strong>Design Phase:</strong> Developed a modern, responsive design using HTML, CSS, and JavaScript.</li>
-            <li><strong>Implementation:</strong> Added interactive elements to improve user engagement.</li>
-            <li><strong>Feedback Loop:</strong> Refined the design based on user feedback.</li>
-        </ul>
-        <h3>Results</h3>
-        <ul>
-            <li><strong>Improved User Experience:</strong> A user-friendly interface that highlights skills effectively.</li>
-            <li><strong>Increased Engagement:</strong> 40% boost in user engagement compared to traditional portfolios.</li>
-            <li><strong>Positive Reception:</strong> Favorable feedback from peers and faculty, prompting requests for similar designs.</li>
-        </ul>        
-        <p>This project illustrates the power of innovative design in enhancing the online presence of MSIT students.</p>
+
+    <section id="solar-mppt" class="hidden">
+        <h2>ANFIS-Controlled MPPT For Solar PV</h2>
+        <div class="project-detail-section">
+            <h3>Overview (MATLAB)</h3>
+            <p>Developed an ANFIS-based intelligent controller for dynamic Maximum Power Point Tracking (MPPT) in solar cells to harvest 20% more power in shifting irradiance conditions.</p>
+        </div>
     </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to reach out to me via email or social media:</p>
-        <p>Email: <a href="mailto:sonali.100508@google.com">sonali.100508@google.com</a></p>
-    </section>
->>>>>>> 3c954f1e231891a8b80e2e997163f56fa7bf47e1
+
     <footer>
-        <ul>
-            <li>&#169; Bora Sonali - All rights reserved</li>
-        </ul>
+        <p>&#169; 2026 Bora Sonali - All rights reserved</p>
         <div class="social-media">
-<<<<<<< HEAD
-            <a
-                href="https://www.linkedin.com/in/bora-sonali-169a871b3"
-                class="social-icon"
-                target="_blank"
-                ><i class="fab fa-linkedin-in"></i> LinkedIn</a
-            >
-            <a href="https://github.com/Sonali-b23" class="social-icon" target="_blank"
-                ><i class="fab fa-github"></i> GitHub</a
-            >
-=======
             <a href="https://www.linkedin.com/in/bora-sonali-169a871b3" class="social-icon" target="_blank">
-                <i class="fab fa-linkedin-in"></i> LinkedIn
+                <i class="fab fa-linkedin-in"></i>
             </a>
             <a href="https://github.com/Sonali-b23" class="social-icon" target="_blank">
-                <i class="fab fa-github"></i> GitHub
+                <i class="fab fa-github"></i>
             </a>
->>>>>>> 3c954f1e231891a8b80e2e997163f56fa7bf47e1
         </div>
     </footer>
+
+    <!-- Interactive Scripts -->
+    <script src="script.js"></script>
 </body>
 </html>
