@@ -1,50 +1,114 @@
-# Sonali's Portfolio
+# 🌐 Sonali's Portfolio
 
-Welcome to my personal portfolio website! This project showcases my skills, education, projects, achievements, experience, and certifications.
+Welcome to my personal portfolio website—a professional showcase of my work in **Artificial Intelligence, Machine Learning, and Software Engineering**.
 
-## About Me
+This portfolio highlights my technical skills, academic background, and end-to-end implemented projects in AI/ML and full-stack development.
 
-I am Bora Sonali, currently pursuing a Master’s degree in Information Technology at the International Institute of Information Technology, Hyderabad. I have a strong foundation in computer science principles and programming, with a passion for leveraging technology to solve real-world problems. I am continuously learning and eager to apply my skills in dynamic IT environments.
+---
 
-## Features
+## 👩‍💻 About Me
 
-- Clean, modern, and responsive design
-- Sections include About, Education, Skills, Projects, Achievements, Experience, Certifications, and Contact
-- Interactive navigation bar for easy access to each section
-- Use of Font Awesome icons for social media links
-- Projects highlight practical work involving Python, machine learning, and engineering design
-- Contact information with direct email link and social profiles
+I am **Bora Sonali**, currently pursuing a **Master’s degree in Information Technology** at the *International Institute of Information Technology, Hyderabad*.
 
-## Skills Highlighted
+I have a strong foundation in computer science and a passion for building **intelligent systems and real-world applications**.
 
-- Programming Languages: Python, Java, JavaScript
-- Tools & Technologies: GitHub, Figma, MATLAB, Linux, Jupyter
-- Libraries & Frameworks: NumPy, Pandas, Matplotlib, Scikit-learn, PyTorch, OpenCV
-- Others: MS Office, Google Workspace, HTML & CSS, Machine Learning
+### Interests:
+- Artificial Intelligence & Machine Learning  
+- Data Science & Intelligent Systems  
+- Full-stack Web Development  
+- Scalable software systems  
 
-## Projects
+---
 
-Some key projects include:
+## ✨ Key Features
 
-- Brain Tumor Classification Using CNN with PyTorch and OpenCV
-- Solar Power Prediction using ANFIS and MPPT algorithms
-- Eco-Friendly Hybrid Vehicle Prototype design and analysis
-- MSIT Web Portfolio design and development
-- ANFIS-based Solar PV Cell modeling
+- Multi-page responsive portfolio website  
+- Modern dark/light hybrid UI design  
+- Dynamic typing animation in hero section  
+- Scroll-based reveal animations  
+- Interactive navigation system  
+- Structured project showcase  
+- Clean and professional UI/UX design  
 
-## How to View the Portfolio
+---
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Sonali-b23/portfolio.git
-2. Open the index.html file in your favorite web browser.
+## 🛠️ Tech Stack
 
-3. Explore the different sections using the navigation bar.
+### Programming Languages
+- Python
+- Java
+- JavaScript
 
-Contact
-You can reach me at: sonali.100508@google.com
+### Machine Learning & AI
+- PyTorch
+- OpenCV
+- Scikit-learn
+- NumPy
+- Pandas
 
-This project is for personal use and portfolio demonstration.
+### Tools & Platforms
+- Git & GitHub
+- Linux
+- Jupyter Notebook
+- Figma
 
-Thank you for visiting my portfolio!
+### Web Technologies
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+
+---
+
+## 🚀 Featured Projects
+
+### 🔍 Twitter API Semantic Search
+Semantic search engine using sentence embeddings for API documentation retrieval.
+
+### 🧠 Brain Tumor Classification (CNN)
+Deep learning model for MRI-based tumor detection using PyTorch.
+
+### 🔗 Hybrid GraphRAG System
+Combines Neo4j graph traversal with vector similarity search for intelligent retrieval.
+
+### 🎵 AI Music Generation (RNN)
+LSTM-based model generating music using ABC notation.
+
+### 🚇 Hyderabad Metro Navigation System
+Graph-based shortest path and cost optimization system.
+
+### 🎨 Magic Metaphors
+Creative AI storytelling application built with Streamlit.
+
+### 🔐 Secure Login System
+Full-stack authentication system with security and session control.
+
+---
+
+## 📁 Project Structure
+
+- `index.html` → Main landing page  
+- `projects.html` → Project showcase page  
+- `styles.css` → Styling and UI design  
+- `script.js` → Animations and interactivity  
+
+---
+
+## ▶️ How to Run Locally
+
+```bash
+git clone https://github.com/Sonali-b23/portfolio.git
+cd portfolio
+
+---
+📫 Contact
+Email: sonali.100508@google.com
+
+---
+📌 License
+This project is for personal portfolio demonstration purposes.
+
+---
+🙏 Acknowledgment
+
+Thank you for visiting my portfolio.
 
